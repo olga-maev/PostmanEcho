@@ -11,7 +11,7 @@ public class PostmanEchoTest1 {
 // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .headers("Authorization","cG9zdG1hbjpwYXNzd29yZA==")
+                .headers("Authorization","Basic cG9zdG1hbjpwYXNzd29yZA==")
 //   Выполняемые действия
                 .when()
                 .get("/basic-auth")
